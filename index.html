@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STATIC RESPONSIVE WEBPAGE</title>
+    <!-- style link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- boxicons link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <header class="header">
+        <a href="" class="logo">Music World</a>
+        <input type="checkbox" name="" id="check">
+        <label for="check" class="icons">
+            <!-- menu icon -->
+            <i id="menu" class='bx bx-menu '></i>
+             <!-- close icon -->
+             <i id="cancel" class='bx bx-x' ></i>
+        </label>
+        <nav class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#home-contents">ABOUT</a>
+            <a href="#populartours">PLAY LIST</a>
+            <!-- <a href="#">GALLERY</a> -->
+            <a href="#reviews">VIDEOS</a>
+            <a href="#">CONTACTS</a>
+        </nav>
+    </header>
+
+    <div id="container">
+        
+        <!-- home -->
+        <section id="home">
+            <div class="heading"> 
+                <h1 class="homeheading">THE WORLD<br>OF MUSIC</h1>
+            </div>
+            <!-- home contents under the main heading "Visit tokyo" -->
+            <div id="home-contents" class="contents">
+                <div class="homecontents">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing. Ullam assumenda tempora autem id quos
+                        ratione, excepturi.</p>
+                        <br>
+                    <h5>HEAR NOW</h5>
+                </div>
+            </div>
+            <br>
+        </section>
+        <!-- popular tours -->
+        <section id="populartours" class="popular-tours">
+            <div class="tourheading">
+                <h1>PLAY LIST</h1>
+            </div>
+            <div class="tours">
+                <div class="tour">
+                    <img class="tour-img" src="https://i1.sndcdn.com/artworks-jWO3lePvtgCU-0-t500x500.jpg" alt="Tour 1">
+                    <h3>Trending #1</h3>
+                    <p>Ballaatha Jaathi</p>
+                </div>
+                <div class="tour">
+                    <img class="tour-img" src="https://m.media-amazon.com/images/I/61arxgYjoSL._SX354_SY354_BL0_QL100__UXNaN_FMjpg_QL85_.jpg" alt="Tour 2">
+                    <h3>Trending #2</h3>
+                    <p>Illuminati</p>
+                </div>
+                <div class="tour">
+                    <img class="tour-img" src="https://th.bing.com/th/id/OIP.DkeoA3Aps7wNpOmMUEqcjwAAAA?rs=1&pid=ImgDetMain" alt="Tour 3">
+                    <h3>Trending #3</h3>
+                    <p>Hey Nima</p>
+                </div>
+                <div class="tour">
+                    <img class="tour-img" src="https://is5-ssl.mzstatic.com/image/thumb/Music112/v4/4b/70/4e/4b704ecd-9c8c-25ce-4f37-24317616fafe/cover.jpg/1200x1200bf-60.jpg" alt="Tour 4">
+                    <h3>Trending #4</h3>
+                    <p>Manavaalan Thug</p>
+                </div>
+            </div>
+        </section>
+        <!-- last / reviews -->
+        <section id="reviews">
+            <div>
+                <h1 class="review-heading">Hear Your<br>Favorite Musics<br>With Visuals </h1>
+                <i class="fa-regular fa-circle-play"></i> <span> Watch the video now</span>
+            </div>
+            <div class="review-videos">
+                <div><iframe class="review-v" width="350" height="250" src="https://www.youtube.com/embed/X-MZXIXPwFw" title="King of Kotha - Kotha Raja Video | Feat. Asal Kolaar, Dabzee, Roll Rida &amp; Mu. Ri | Jakes Bejoy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div><iframe class="review-v" width="350" height="250" src="https://www.youtube.com/embed/iRGW3Hve-ao" title="Fejo - Hey Nima | Malayalam Song [Official Lyric Video]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div><iframe class="review-v" width="350" height="250" src="https://www.youtube.com/embed/TSUdycw603M" title="Fejo - Dorothy ft Farzi | Malayalam Rap [Official Lyric Video]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div><iframe class="review-v" width="350" height="250" src="https://www.youtube.com/embed/oq1EWvgzzwk" title="Vatteppam - Lyrical | Mandakini | Dabzee | Altaf Salim | Anarkali Marikar | Vinod Leela |Bibin Ashok" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <div>
+                    <iframe class="review-v" width="350" height="250" src="https://www.youtube.com/embed/srTZcfltD0s" title="Fejo - Mahanubhavulu | Malayalam Rap (Prod. Jeffin Jestin)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <iframe class="review-v" width="350" height="250" src="https://www.youtube.com/embed/PgogkrUr-VQ" title="Fejo - Koode Undavanam | Malayalam Song (Prod. Farzi)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
